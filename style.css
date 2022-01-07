@@ -2,6 +2,8 @@ h3 {
   font-family: sans-serif;
   font-size: 16px;
   color: navy;
+  margin: 10px;
+  text-align: center;
 }
 
 button {
@@ -42,4 +44,15 @@ button {
 #lol:hover {
   background-color: rgba(173, 216, 230, 0.568);
   color:rgb(7, 77, 228);
+}
+
+#logo-container {
+  display:flex;
+  justify-content: center;
+  margin: 10px 0 20px;
+}
+
+#giphy-logo {
+  width: 125px;
+  align-items: center;
 }
